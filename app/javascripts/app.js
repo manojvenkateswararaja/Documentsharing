@@ -88,15 +88,14 @@ window.App = {
         var self = this;
         var key = document.getElementById("key").value;
         console.log("address...>>>" +key);
-        var key = document.getElementById("name").value;
-        console.log("address...>>>" +key);
-        var words = document.getElementById("words").value;
-        console.log("Coinreciever:------>" + words);
-        var vendor = document.getElementById("vendor").value;
-        console.log("lol----",vendor)
+     
+        var manAddrs = document.getElementById("words").value;
+        console.log("Coinreciever:------>" + manAddrs);
+        var venAddrs = document.getElementById("vendor").value;
+        console.log("lol----",venAddrs)
         
-        var Totalnett =(document.getElementById("Total nett").value);
-        console.log("lol----",Totalnett)
+        var tot =(document.getElementById("Total nett").value);
+        console.log("lol----",tot)
         
         var PurchaseOnlyDiscount = (document.getElementById("Purchase Only Discount").value);
         console.log("Coinreciever:------>" + PurchaseOnlyDiscount);
@@ -105,14 +104,16 @@ window.App = {
         
         var TotalCrossValue=(document.getElementById("Total Cross Value").value);
         console.log("lolol------>",TotalCrossValue);
+        var name = document.getElementById("myFile").value;
+        console.log("doc" +name);
         
-        var updateString=[words,vendor,Totalnett,PurchaseOnlyDiscount, TotalVATvalue,TotalCrossValue]
+        
         // updateString.toString();
-        console.log("lol-------->",updateString);
+      
         var rapid;
         SmartCurrency.deployed().then(function(instance) {
             rapid = instance;
-            return rapid.StoreDocument(key.toString(),name.toString(),updateString.toString(),{
+            return rapid.StoreDocument(key.toString(),name.toString(),manAddrs.toString(),venAddrs.toString(),tot.toString(),{
                 from: account
             });
        }).then(function(value) {
@@ -130,76 +131,86 @@ window.App = {
 
 
  
-//     myFunction: function() {
-//         var self = this;
-//         var key = document.getElementById("mykey").value;
-//         console.log("address...>>>" +key);
-//         // var balance = new BigNumber(key);
-//         // console.log(balance);
-// // or var balance = web3.eth.getBalance(someAddress);
+    myFunction: function() {
+        var self = this;
+        var key = document.getElementById("mykey").value;
+        console.log("address...>>>" +key);
+        // var balance = new BigNumber(key);
+        // console.log(balance);
+// or var balance = web3.eth.getBalance(someAddress);
 
-//  // toString(10) converts it to a numbe
-//        var name = document.getElementById("myFile").value;
-//        console.log("doc" +name);
-//        // doc.disabled = true;
-//        var value = "1000"
-//        this.setStatus("Initiating transaction... (please wait)");
-//  var updateString = []
-//     //    console.log(updateString)
+ // toString(10) converts it to a numbe
+       var name = document.getElementById("myFile").value;
+       console.log("doc" +name);
+       // doc.disabled = true;
+       var value = "1000"
+       this.setStatus("Initiating transaction... (please wait)");
+ var updateString = []
+    //    console.log(updateString)
 
    
-//        var rapid;
-//        SmartCurrency.deployed().then(function(instance) {
-//            console.log("manoj");
-//            rapid = instance;
-//            console.log("inside....");
-//            return rapid.StoreDocument(key.toString(),name.toString(),value.toString(),{
-//                from: account
+       var rapid;
+       SmartCurrency.deployed().then(function(instance) {
+           console.log("manoj");
+           rapid = instance;
+           console.log("inside....");
+           return rapid.StoreDocument(key.toString(),name.toString(),value.toString(),{
+               from: account
                
 
-//            });
+           });
        
-//         }).then(function(value) {
+        }).then(function(value) {
 
-//             self.setStatus("Transaction complete!");
-//             console.log("data stored")
+            self.setStatus("Transaction complete!");
+            console.log("data stored")
             
 
-//         }).catch(function(e) {
-//             console.log(e);
-//             self.setStatus("Error Approving transaction due to insufficient Balance");
-//         });
+        }).catch(function(e) {
+            console.log(e);
+            self.setStatus("Error Approving transaction due to insufficient Balance");
+        });
 
        
     
-// },
+},
 getStatus: function(){
-  
+    var self = this;
     var rapid;
-     SmartCurrency.deployed().then(function(instance){
-         console.log("manoj");
-         rapid = instance;
-         console.log("done")
-         var key = document.getElementById("key").value;
-         console.log(key)
-
+    
+    SmartCurrency.deployed().then(function(instance){
+        rapid = instance;
         
-         return rapid.documentStructs.call(key,{
-         });
-         console.log("hoiii")
-     }).then(function(value) {
-         var balance_element = document.getElementById('getStatus');
-         console.log(balance_element)
-         balance_element.innerHTML = value.toString();
-         console.log("hii manoj",balance_element)
-     }).catch(function(e) {
-         console.log(e);
-         self.setStatus("Error getting balance; see log.");
-     });
-  
-  },
+           var key = (document.getElementById("mykey").value);
+       
+           console.log(key)
+            
+        return rapid.documentStructs.call(key,{
+            from: account
+        
+        });
+    
+    }).then(function(value) {
+        var print = document.getElementById("getStatus");
+        print.innerHTML = value.toString();
+        console.log("print",print.innerHTML);
 
- }
+
+    }).catch(function(e) {
+        console.log(e);
+        self.setStatus("Error getting balance; see log.");
+    });
+
+},
+
+
+
+
+}
+
+
+
+ 
 
 
 window.addEventListener('load', function() {
