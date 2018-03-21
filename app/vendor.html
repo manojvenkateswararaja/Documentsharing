@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!--<meta charset="utf-8" />-->
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
@@ -21,7 +22,9 @@
     <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
     <!-- <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script> -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  -->
+
 </head>
+
 <body>
     
            
@@ -32,11 +35,11 @@
         <br>
         <h3> <center>Vendor</center></h3>
        
-        <div class="container"> 
+        <div class="containerdemo"> 
             <br> 
-                                        <h3> <span class="black"> <center>Verify vendor  Details</center></span> 
+
+                                        <h3> <span class="black"><span id="getStatus"> <center>Verify vendor  Details</center></span> </span>
                                         </h3>
-                                        <span id="getStatus"> </span>
                                         <label>Identity</label>
                                         <input class="form-control "type = "text" style="width:150px" id = "key"></input>
                                        <br>
@@ -44,11 +47,8 @@
                                        <div class="wrapper">
                                        <button class="btn btn-primary" id="send" onclick="App.getStatus()">Submit</button>
                                        <br>
-                                       <span id="status"></span>
                                        <br>
                                        <br>
-                                     
-                                       <h3> <span class="black"> List of pending transaction</span> </span>
                                        </div>
                                     </body>
                                     </html>

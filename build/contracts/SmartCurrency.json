@@ -52,20 +52,20 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b6103c28061001e6000396000f30060606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680634a75c0ff1461005157806372061b9114610116575b600080fd5b341561005c57600080fd5b6100fc60048080356000191690602001909190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190505061025c565b604051808215151515815260200191505060405180910390f35b341561012157600080fd5b61013b6004808035600019169060200190919050506102cf565b6040518080602001806020018381038352858181546001816001161561010002031660029004815260200191508054600181600116156101000203166002900480156101c85780601f1061019d576101008083540402835291602001916101c8565b820191906000526020600020905b8154815290600101906020018083116101ab57829003601f168201915b505083810382528481815460018160011615610100020316600290048152602001915080546001816001161561010002031660029004801561024b5780601f106102205761010080835404028352916020019161024b565b820191906000526020600020905b81548152906001019060200180831161022e57829003601f168201915b505094505050505060405180910390f35b60008260016000866000191660001916815260200190815260200160002060000190805190602001906102909291906102f1565b508160016000866000191660001916815260200190815260200160002060010190805190602001906102c39291906102f1565b50600190509392505050565b6001602052806000526040600020600091509050806000019080600101905082565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061033257805160ff1916838001178555610360565b82800160010185558215610360579182015b8281111561035f578251825591602001919060010190610344565b5b50905061036d9190610371565b5090565b61039391905b8082111561038f576000816000905550600101610377565b5090565b905600a165627a7a723058205f688425a840f1237e4f2bf144de440a8e64be86e73e875f09b9b4bb86b6e2e40029",
-  "deployedBytecode": "0x60606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680634a75c0ff1461005157806372061b9114610116575b600080fd5b341561005c57600080fd5b6100fc60048080356000191690602001909190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190505061025c565b604051808215151515815260200191505060405180910390f35b341561012157600080fd5b61013b6004808035600019169060200190919050506102cf565b6040518080602001806020018381038352858181546001816001161561010002031660029004815260200191508054600181600116156101000203166002900480156101c85780601f1061019d576101008083540402835291602001916101c8565b820191906000526020600020905b8154815290600101906020018083116101ab57829003601f168201915b505083810382528481815460018160011615610100020316600290048152602001915080546001816001161561010002031660029004801561024b5780601f106102205761010080835404028352916020019161024b565b820191906000526020600020905b81548152906001019060200180831161022e57829003601f168201915b505094505050505060405180910390f35b60008260016000866000191660001916815260200190815260200160002060000190805190602001906102909291906102f1565b508160016000866000191660001916815260200190815260200160002060010190805190602001906102c39291906102f1565b50600190509392505050565b6001602052806000526040600020600091509050806000019080600101905082565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061033257805160ff1916838001178555610360565b82800160010185558215610360579182015b8281111561035f578251825591602001919060010190610344565b5b50905061036d9190610371565b5090565b61039391905b8082111561038f576000816000905550600101610377565b5090565b905600a165627a7a723058205f688425a840f1237e4f2bf144de440a8e64be86e73e875f09b9b4bb86b6e2e40029",
-  "sourceMap": "1:650:0:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "1:650:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;448:199;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;360:57;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;448:199;527:12;574:4;545:15;:20;561:3;545:20;;;;;;;;;;;;;;;;;:25;;:33;;;;;;;;;;;;:::i;:::-;;616:12;580:15;:20;596:3;580:20;;;;;;;;;;;;;;;;;:33;;:48;;;;;;;;;;;;:::i;:::-;;639:4;632:11;;448:199;;;;;:::o;360:57::-;;;;;;;;;;;;;;;;;;;;;;;;;:::o;1:650::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "bytecode": "0x6060604052341561000f57600080fd5b6103c28061001e6000396000f30060606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680634a75c0ff1461005157806372061b9114610116575b600080fd5b341561005c57600080fd5b6100fc60048080356000191690602001909190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190505061025c565b604051808215151515815260200191505060405180910390f35b341561012157600080fd5b61013b6004808035600019169060200190919050506102cf565b6040518080602001806020018381038352858181546001816001161561010002031660029004815260200191508054600181600116156101000203166002900480156101c85780601f1061019d576101008083540402835291602001916101c8565b820191906000526020600020905b8154815290600101906020018083116101ab57829003601f168201915b505083810382528481815460018160011615610100020316600290048152602001915080546001816001161561010002031660029004801561024b5780601f106102205761010080835404028352916020019161024b565b820191906000526020600020905b81548152906001019060200180831161022e57829003601f168201915b505094505050505060405180910390f35b60008260016000866000191660001916815260200190815260200160002060000190805190602001906102909291906102f1565b508160016000866000191660001916815260200190815260200160002060010190805190602001906102c39291906102f1565b50600190509392505050565b6001602052806000526040600020600091509050806000019080600101905082565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061033257805160ff1916838001178555610360565b82800160010185558215610360579182015b8281111561035f578251825591602001919060010190610344565b5b50905061036d9190610371565b5090565b61039391905b8082111561038f576000816000905550600101610377565b5090565b905600a165627a7a7230582073266961c567edc715a7daa53d58b70399ee4285117bba0147594e692a86d67a0029",
+  "deployedBytecode": "0x60606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680634a75c0ff1461005157806372061b9114610116575b600080fd5b341561005c57600080fd5b6100fc60048080356000191690602001909190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509190505061025c565b604051808215151515815260200191505060405180910390f35b341561012157600080fd5b61013b6004808035600019169060200190919050506102cf565b6040518080602001806020018381038352858181546001816001161561010002031660029004815260200191508054600181600116156101000203166002900480156101c85780601f1061019d576101008083540402835291602001916101c8565b820191906000526020600020905b8154815290600101906020018083116101ab57829003601f168201915b505083810382528481815460018160011615610100020316600290048152602001915080546001816001161561010002031660029004801561024b5780601f106102205761010080835404028352916020019161024b565b820191906000526020600020905b81548152906001019060200180831161022e57829003601f168201915b505094505050505060405180910390f35b60008260016000866000191660001916815260200190815260200160002060000190805190602001906102909291906102f1565b508160016000866000191660001916815260200190815260200160002060010190805190602001906102c39291906102f1565b50600190509392505050565b6001602052806000526040600020600091509050806000019080600101905082565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061033257805160ff1916838001178555610360565b82800160010185558215610360579182015b8281111561035f578251825591602001919060010190610344565b5b50905061036d9190610371565b5090565b61039391905b8082111561038f576000816000905550600101610377565b5090565b905600a165627a7a7230582073266961c567edc715a7daa53d58b70399ee4285117bba0147594e692a86d67a0029",
+  "sourceMap": "1:650:3:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "1:650:3:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;448:199;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;360:57;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;448:199;527:12;574:4;545:15;:20;561:3;545:20;;;;;;;;;;;;;;;;;:25;;:33;;;;;;;;;;;;:::i;:::-;;616:12;580:15;:20;596:3;580:20;;;;;;;;;;;;;;;;;:33;;:48;;;;;;;;;;;;:::i;:::-;;639:4;632:11;;448:199;;;;;:::o;360:57::-;;;;;;;;;;;;;;;;;;;;;;;;;:::o;1:650::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
   "source": "\ncontract SmartCurrency {\n      mapping (address => Usr ) Users;\n  struct Usr {\n    \n    string [] updateString;\n    \n    }\n\n\n // This is a Type\n struct DocumentStruct{\n   // Not possible to pass strings between contracts at this time\n   string name;\n   string updateString;\n  \n }\n   \n\n // This is a namespace where we will store docs of Type DocumentStruct\n  mapping(bytes32 => DocumentStruct) public documentStructs;\n\n\n // Set values in storage\n function StoreDocument(bytes32 key, string name, string updateString) returns (bool success) {\n  documentStructs[key].name  = name;\ndocumentStructs[key].updateString = updateString;\n  return true;\n }\n \n}",
-  "sourcePath": "/home/rpqb-desk-003/myproject/contracts/SmartCurrency.sol",
+  "sourcePath": "/home/rpqb-desk-004/myproject/Documentsharing/contracts/SmartCurrency.sol",
   "ast": {
-    "absolutePath": "/home/rpqb-desk-003/myproject/contracts/SmartCurrency.sol",
+    "absolutePath": "/home/rpqb-desk-004/myproject/Documentsharing/contracts/SmartCurrency.sol",
     "exportedSymbols": {
       "SmartCurrency": [
-        46
+        216
       ]
     },
-    "id": 47,
+    "id": 217,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -74,53 +74,53 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 46,
+        "id": 216,
         "linearizedBaseContracts": [
-          46
+          216
         ],
         "name": "SmartCurrency",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 4,
+            "id": 174,
             "name": "Users",
             "nodeType": "VariableDeclaration",
-            "scope": 46,
-            "src": "32:31:0",
+            "scope": 216,
+            "src": "32:31:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Usr_$8_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Usr_$178_storage_$",
               "typeString": "mapping(address => struct SmartCurrency.Usr storage ref)"
             },
             "typeName": {
-              "id": 3,
+              "id": 173,
               "keyType": {
-                "id": 1,
+                "id": 171,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "41:7:0",
+                "src": "41:7:3",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "32:25:0",
+              "src": "32:25:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Usr_$8_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Usr_$178_storage_$",
                 "typeString": "mapping(address => struct SmartCurrency.Usr storage ref)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 2,
+                "id": 172,
                 "name": "Usr",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 8,
-                "src": "52:3:0",
+                "referencedDeclaration": 178,
+                "src": "52:3:3",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Usr_$8_storage_ptr",
+                  "typeIdentifier": "t_struct$_Usr_$178_storage_ptr",
                   "typeString": "struct SmartCurrency.Usr storage pointer"
                 }
               }
@@ -130,15 +130,15 @@
           },
           {
             "canonicalName": "SmartCurrency.Usr",
-            "id": 8,
+            "id": 178,
             "members": [
               {
                 "constant": false,
-                "id": 7,
+                "id": 177,
                 "name": "updateString",
                 "nodeType": "VariableDeclaration",
-                "scope": 8,
-                "src": "89:22:0",
+                "scope": 178,
+                "src": "89:22:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -147,19 +147,19 @@
                 },
                 "typeName": {
                   "baseType": {
-                    "id": 5,
+                    "id": 175,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "89:6:0",
+                    "src": "89:6:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
                     }
                   },
-                  "id": 6,
+                  "id": 176,
                   "length": null,
                   "nodeType": "ArrayTypeName",
-                  "src": "89:9:0",
+                  "src": "89:9:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_array$_t_string_storage_$dyn_storage_ptr",
                     "typeString": "string storage ref[] storage pointer"
@@ -171,21 +171,21 @@
             ],
             "name": "Usr",
             "nodeType": "StructDefinition",
-            "scope": 46,
-            "src": "67:56:0",
+            "scope": 216,
+            "src": "67:56:3",
             "visibility": "public"
           },
           {
             "canonicalName": "SmartCurrency.DocumentStruct",
-            "id": 13,
+            "id": 183,
             "members": [
               {
                 "constant": false,
-                "id": 10,
+                "id": 180,
                 "name": "name",
                 "nodeType": "VariableDeclaration",
-                "scope": 13,
-                "src": "238:11:0",
+                "scope": 183,
+                "src": "238:11:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -193,10 +193,10 @@
                   "typeString": "string storage pointer"
                 },
                 "typeName": {
-                  "id": 9,
+                  "id": 179,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "238:6:0",
+                  "src": "238:6:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string storage pointer"
@@ -207,11 +207,11 @@
               },
               {
                 "constant": false,
-                "id": 12,
+                "id": 182,
                 "name": "updateString",
                 "nodeType": "VariableDeclaration",
-                "scope": 13,
-                "src": "254:19:0",
+                "scope": 183,
+                "src": "254:19:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -219,10 +219,10 @@
                   "typeString": "string storage pointer"
                 },
                 "typeName": {
-                  "id": 11,
+                  "id": 181,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "254:6:0",
+                  "src": "254:6:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string storage pointer"
@@ -234,50 +234,50 @@
             ],
             "name": "DocumentStruct",
             "nodeType": "StructDefinition",
-            "scope": 46,
-            "src": "146:134:0",
+            "scope": 216,
+            "src": "146:134:3",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 17,
+            "id": 187,
             "name": "documentStructs",
             "nodeType": "VariableDeclaration",
-            "scope": 46,
-            "src": "360:57:0",
+            "scope": 216,
+            "src": "360:57:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$13_storage_$",
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$183_storage_$",
               "typeString": "mapping(bytes32 => struct SmartCurrency.DocumentStruct storage ref)"
             },
             "typeName": {
-              "id": 16,
+              "id": 186,
               "keyType": {
-                "id": 14,
+                "id": 184,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "368:7:0",
+                "src": "368:7:3",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "360:34:0",
+              "src": "360:34:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$13_storage_$",
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$183_storage_$",
                 "typeString": "mapping(bytes32 => struct SmartCurrency.DocumentStruct storage ref)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 15,
+                "id": 185,
                 "name": "DocumentStruct",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 13,
-                "src": "379:14:0",
+                "referencedDeclaration": 183,
+                "src": "379:14:3",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_DocumentStruct_$13_storage_ptr",
+                  "typeIdentifier": "t_struct$_DocumentStruct_$183_storage_ptr",
                   "typeString": "struct SmartCurrency.DocumentStruct storage pointer"
                 }
               }
@@ -287,14 +287,14 @@
           },
           {
             "body": {
-              "id": 44,
+              "id": 214,
               "nodeType": "Block",
-              "src": "541:106:0",
+              "src": "541:106:3",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 33,
+                    "id": 203,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -305,26 +305,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 28,
+                          "id": 198,
                           "name": "documentStructs",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 17,
-                          "src": "545:15:0",
+                          "referencedDeclaration": 187,
+                          "src": "545:15:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$13_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$183_storage_$",
                             "typeString": "mapping(bytes32 => struct SmartCurrency.DocumentStruct storage ref)"
                           }
                         },
-                        "id": 30,
+                        "id": 200,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 29,
+                          "id": 199,
                           "name": "key",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 19,
-                          "src": "561:3:0",
+                          "referencedDeclaration": 189,
+                          "src": "561:3:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
@@ -335,21 +335,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "545:20:0",
+                        "src": "545:20:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_DocumentStruct_$13_storage",
+                          "typeIdentifier": "t_struct$_DocumentStruct_$183_storage",
                           "typeString": "struct SmartCurrency.DocumentStruct storage ref"
                         }
                       },
-                      "id": 31,
+                      "id": 201,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "name",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 10,
-                      "src": "545:25:0",
+                      "referencedDeclaration": 180,
+                      "src": "545:25:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -359,31 +359,31 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 32,
+                      "id": 202,
                       "name": "name",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 21,
-                      "src": "574:4:0",
+                      "referencedDeclaration": 191,
+                      "src": "574:4:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
                         "typeString": "string memory"
                       }
                     },
-                    "src": "545:33:0",
+                    "src": "545:33:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 34,
+                  "id": 204,
                   "nodeType": "ExpressionStatement",
-                  "src": "545:33:0"
+                  "src": "545:33:3"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 40,
+                    "id": 210,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -394,26 +394,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 35,
+                          "id": 205,
                           "name": "documentStructs",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 17,
-                          "src": "580:15:0",
+                          "referencedDeclaration": 187,
+                          "src": "580:15:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$13_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$183_storage_$",
                             "typeString": "mapping(bytes32 => struct SmartCurrency.DocumentStruct storage ref)"
                           }
                         },
-                        "id": 37,
+                        "id": 207,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 36,
+                          "id": 206,
                           "name": "key",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 19,
-                          "src": "596:3:0",
+                          "referencedDeclaration": 189,
+                          "src": "596:3:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
@@ -424,21 +424,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "580:20:0",
+                        "src": "580:20:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_DocumentStruct_$13_storage",
+                          "typeIdentifier": "t_struct$_DocumentStruct_$183_storage",
                           "typeString": "struct SmartCurrency.DocumentStruct storage ref"
                         }
                       },
-                      "id": 38,
+                      "id": 208,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "updateString",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12,
-                      "src": "580:33:0",
+                      "referencedDeclaration": 182,
+                      "src": "580:33:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -448,39 +448,39 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 39,
+                      "id": 209,
                       "name": "updateString",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 23,
-                      "src": "616:12:0",
+                      "referencedDeclaration": 193,
+                      "src": "616:12:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
                         "typeString": "string memory"
                       }
                     },
-                    "src": "580:48:0",
+                    "src": "580:48:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 41,
+                  "id": 211,
                   "nodeType": "ExpressionStatement",
-                  "src": "580:48:0"
+                  "src": "580:48:3"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "74727565",
-                    "id": 42,
+                    "id": 212,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "639:4:0",
+                    "src": "639:4:3",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -488,14 +488,14 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 27,
-                  "id": 43,
+                  "functionReturnParameters": 197,
+                  "id": 213,
                   "nodeType": "Return",
-                  "src": "632:11:0"
+                  "src": "632:11:3"
                 }
               ]
             },
-            "id": 45,
+            "id": 215,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -503,16 +503,16 @@
             "name": "StoreDocument",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 24,
+              "id": 194,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 19,
+                  "id": 189,
                   "name": "key",
                   "nodeType": "VariableDeclaration",
-                  "scope": 45,
-                  "src": "471:11:0",
+                  "scope": 215,
+                  "src": "471:11:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -520,10 +520,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 18,
+                    "id": 188,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "471:7:0",
+                    "src": "471:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -534,11 +534,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 21,
+                  "id": 191,
                   "name": "name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 45,
-                  "src": "484:11:0",
+                  "scope": 215,
+                  "src": "484:11:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -546,10 +546,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 20,
+                    "id": 190,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "484:6:0",
+                    "src": "484:6:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -560,11 +560,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 23,
+                  "id": 193,
                   "name": "updateString",
                   "nodeType": "VariableDeclaration",
-                  "scope": 45,
-                  "src": "497:19:0",
+                  "scope": 215,
+                  "src": "497:19:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -572,10 +572,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 22,
+                    "id": 192,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "497:6:0",
+                    "src": "497:6:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -585,20 +585,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "470:47:0"
+              "src": "470:47:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 27,
+              "id": 197,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 26,
+                  "id": 196,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 45,
-                  "src": "527:12:0",
+                  "scope": 215,
+                  "src": "527:12:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -606,10 +606,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 25,
+                    "id": 195,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "527:4:0",
+                    "src": "527:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -619,29 +619,29 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "526:14:0"
+              "src": "526:14:3"
             },
-            "scope": 46,
-            "src": "448:199:0",
+            "scope": 216,
+            "src": "448:199:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 47,
-        "src": "1:650:0"
+        "scope": 217,
+        "src": "1:650:3"
       }
     ],
-    "src": "1:650:0"
+    "src": "1:650:3"
   },
   "legacyAST": {
-    "absolutePath": "/home/rpqb-desk-003/myproject/contracts/SmartCurrency.sol",
+    "absolutePath": "/home/rpqb-desk-004/myproject/Documentsharing/contracts/SmartCurrency.sol",
     "exportedSymbols": {
       "SmartCurrency": [
-        46
+        216
       ]
     },
-    "id": 47,
+    "id": 217,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -650,53 +650,53 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 46,
+        "id": 216,
         "linearizedBaseContracts": [
-          46
+          216
         ],
         "name": "SmartCurrency",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 4,
+            "id": 174,
             "name": "Users",
             "nodeType": "VariableDeclaration",
-            "scope": 46,
-            "src": "32:31:0",
+            "scope": 216,
+            "src": "32:31:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Usr_$8_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Usr_$178_storage_$",
               "typeString": "mapping(address => struct SmartCurrency.Usr storage ref)"
             },
             "typeName": {
-              "id": 3,
+              "id": 173,
               "keyType": {
-                "id": 1,
+                "id": 171,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "41:7:0",
+                "src": "41:7:3",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "32:25:0",
+              "src": "32:25:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Usr_$8_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Usr_$178_storage_$",
                 "typeString": "mapping(address => struct SmartCurrency.Usr storage ref)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 2,
+                "id": 172,
                 "name": "Usr",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 8,
-                "src": "52:3:0",
+                "referencedDeclaration": 178,
+                "src": "52:3:3",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Usr_$8_storage_ptr",
+                  "typeIdentifier": "t_struct$_Usr_$178_storage_ptr",
                   "typeString": "struct SmartCurrency.Usr storage pointer"
                 }
               }
@@ -706,15 +706,15 @@
           },
           {
             "canonicalName": "SmartCurrency.Usr",
-            "id": 8,
+            "id": 178,
             "members": [
               {
                 "constant": false,
-                "id": 7,
+                "id": 177,
                 "name": "updateString",
                 "nodeType": "VariableDeclaration",
-                "scope": 8,
-                "src": "89:22:0",
+                "scope": 178,
+                "src": "89:22:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -723,19 +723,19 @@
                 },
                 "typeName": {
                   "baseType": {
-                    "id": 5,
+                    "id": 175,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "89:6:0",
+                    "src": "89:6:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
                     }
                   },
-                  "id": 6,
+                  "id": 176,
                   "length": null,
                   "nodeType": "ArrayTypeName",
-                  "src": "89:9:0",
+                  "src": "89:9:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_array$_t_string_storage_$dyn_storage_ptr",
                     "typeString": "string storage ref[] storage pointer"
@@ -747,21 +747,21 @@
             ],
             "name": "Usr",
             "nodeType": "StructDefinition",
-            "scope": 46,
-            "src": "67:56:0",
+            "scope": 216,
+            "src": "67:56:3",
             "visibility": "public"
           },
           {
             "canonicalName": "SmartCurrency.DocumentStruct",
-            "id": 13,
+            "id": 183,
             "members": [
               {
                 "constant": false,
-                "id": 10,
+                "id": 180,
                 "name": "name",
                 "nodeType": "VariableDeclaration",
-                "scope": 13,
-                "src": "238:11:0",
+                "scope": 183,
+                "src": "238:11:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -769,10 +769,10 @@
                   "typeString": "string storage pointer"
                 },
                 "typeName": {
-                  "id": 9,
+                  "id": 179,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "238:6:0",
+                  "src": "238:6:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string storage pointer"
@@ -783,11 +783,11 @@
               },
               {
                 "constant": false,
-                "id": 12,
+                "id": 182,
                 "name": "updateString",
                 "nodeType": "VariableDeclaration",
-                "scope": 13,
-                "src": "254:19:0",
+                "scope": 183,
+                "src": "254:19:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -795,10 +795,10 @@
                   "typeString": "string storage pointer"
                 },
                 "typeName": {
-                  "id": 11,
+                  "id": 181,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "254:6:0",
+                  "src": "254:6:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string storage pointer"
@@ -810,50 +810,50 @@
             ],
             "name": "DocumentStruct",
             "nodeType": "StructDefinition",
-            "scope": 46,
-            "src": "146:134:0",
+            "scope": 216,
+            "src": "146:134:3",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 17,
+            "id": 187,
             "name": "documentStructs",
             "nodeType": "VariableDeclaration",
-            "scope": 46,
-            "src": "360:57:0",
+            "scope": 216,
+            "src": "360:57:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$13_storage_$",
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$183_storage_$",
               "typeString": "mapping(bytes32 => struct SmartCurrency.DocumentStruct storage ref)"
             },
             "typeName": {
-              "id": 16,
+              "id": 186,
               "keyType": {
-                "id": 14,
+                "id": 184,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "368:7:0",
+                "src": "368:7:3",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "360:34:0",
+              "src": "360:34:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$13_storage_$",
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$183_storage_$",
                 "typeString": "mapping(bytes32 => struct SmartCurrency.DocumentStruct storage ref)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 15,
+                "id": 185,
                 "name": "DocumentStruct",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 13,
-                "src": "379:14:0",
+                "referencedDeclaration": 183,
+                "src": "379:14:3",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_DocumentStruct_$13_storage_ptr",
+                  "typeIdentifier": "t_struct$_DocumentStruct_$183_storage_ptr",
                   "typeString": "struct SmartCurrency.DocumentStruct storage pointer"
                 }
               }
@@ -863,14 +863,14 @@
           },
           {
             "body": {
-              "id": 44,
+              "id": 214,
               "nodeType": "Block",
-              "src": "541:106:0",
+              "src": "541:106:3",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 33,
+                    "id": 203,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -881,26 +881,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 28,
+                          "id": 198,
                           "name": "documentStructs",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 17,
-                          "src": "545:15:0",
+                          "referencedDeclaration": 187,
+                          "src": "545:15:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$13_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$183_storage_$",
                             "typeString": "mapping(bytes32 => struct SmartCurrency.DocumentStruct storage ref)"
                           }
                         },
-                        "id": 30,
+                        "id": 200,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 29,
+                          "id": 199,
                           "name": "key",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 19,
-                          "src": "561:3:0",
+                          "referencedDeclaration": 189,
+                          "src": "561:3:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
@@ -911,21 +911,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "545:20:0",
+                        "src": "545:20:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_DocumentStruct_$13_storage",
+                          "typeIdentifier": "t_struct$_DocumentStruct_$183_storage",
                           "typeString": "struct SmartCurrency.DocumentStruct storage ref"
                         }
                       },
-                      "id": 31,
+                      "id": 201,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "name",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 10,
-                      "src": "545:25:0",
+                      "referencedDeclaration": 180,
+                      "src": "545:25:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -935,31 +935,31 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 32,
+                      "id": 202,
                       "name": "name",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 21,
-                      "src": "574:4:0",
+                      "referencedDeclaration": 191,
+                      "src": "574:4:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
                         "typeString": "string memory"
                       }
                     },
-                    "src": "545:33:0",
+                    "src": "545:33:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 34,
+                  "id": 204,
                   "nodeType": "ExpressionStatement",
-                  "src": "545:33:0"
+                  "src": "545:33:3"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 40,
+                    "id": 210,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -970,26 +970,26 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 35,
+                          "id": 205,
                           "name": "documentStructs",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 17,
-                          "src": "580:15:0",
+                          "referencedDeclaration": 187,
+                          "src": "580:15:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$13_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_DocumentStruct_$183_storage_$",
                             "typeString": "mapping(bytes32 => struct SmartCurrency.DocumentStruct storage ref)"
                           }
                         },
-                        "id": 37,
+                        "id": 207,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 36,
+                          "id": 206,
                           "name": "key",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 19,
-                          "src": "596:3:0",
+                          "referencedDeclaration": 189,
+                          "src": "596:3:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
@@ -1000,21 +1000,21 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "580:20:0",
+                        "src": "580:20:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_DocumentStruct_$13_storage",
+                          "typeIdentifier": "t_struct$_DocumentStruct_$183_storage",
                           "typeString": "struct SmartCurrency.DocumentStruct storage ref"
                         }
                       },
-                      "id": 38,
+                      "id": 208,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "updateString",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12,
-                      "src": "580:33:0",
+                      "referencedDeclaration": 182,
+                      "src": "580:33:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -1024,39 +1024,39 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 39,
+                      "id": 209,
                       "name": "updateString",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 23,
-                      "src": "616:12:0",
+                      "referencedDeclaration": 193,
+                      "src": "616:12:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
                         "typeString": "string memory"
                       }
                     },
-                    "src": "580:48:0",
+                    "src": "580:48:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 41,
+                  "id": 211,
                   "nodeType": "ExpressionStatement",
-                  "src": "580:48:0"
+                  "src": "580:48:3"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "74727565",
-                    "id": 42,
+                    "id": 212,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "639:4:0",
+                    "src": "639:4:3",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -1064,14 +1064,14 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 27,
-                  "id": 43,
+                  "functionReturnParameters": 197,
+                  "id": 213,
                   "nodeType": "Return",
-                  "src": "632:11:0"
+                  "src": "632:11:3"
                 }
               ]
             },
-            "id": 45,
+            "id": 215,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1079,16 +1079,16 @@
             "name": "StoreDocument",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 24,
+              "id": 194,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 19,
+                  "id": 189,
                   "name": "key",
                   "nodeType": "VariableDeclaration",
-                  "scope": 45,
-                  "src": "471:11:0",
+                  "scope": 215,
+                  "src": "471:11:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1096,10 +1096,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 18,
+                    "id": 188,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "471:7:0",
+                    "src": "471:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1110,11 +1110,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 21,
+                  "id": 191,
                   "name": "name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 45,
-                  "src": "484:11:0",
+                  "scope": 215,
+                  "src": "484:11:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1122,10 +1122,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 20,
+                    "id": 190,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "484:6:0",
+                    "src": "484:6:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -1136,11 +1136,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 23,
+                  "id": 193,
                   "name": "updateString",
                   "nodeType": "VariableDeclaration",
-                  "scope": 45,
-                  "src": "497:19:0",
+                  "scope": 215,
+                  "src": "497:19:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1148,10 +1148,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 22,
+                    "id": 192,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "497:6:0",
+                    "src": "497:6:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -1161,20 +1161,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "470:47:0"
+              "src": "470:47:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 27,
+              "id": 197,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 26,
+                  "id": 196,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 45,
-                  "src": "527:12:0",
+                  "scope": 215,
+                  "src": "527:12:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1182,10 +1182,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 25,
+                    "id": 195,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "527:4:0",
+                    "src": "527:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1195,20 +1195,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "526:14:0"
+              "src": "526:14:3"
             },
-            "scope": 46,
-            "src": "448:199:0",
+            "scope": 216,
+            "src": "448:199:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 47,
-        "src": "1:650:0"
+        "scope": 217,
+        "src": "1:650:3"
       }
     ],
-    "src": "1:650:0"
+    "src": "1:650:3"
   },
   "compiler": {
     "name": "solc",
@@ -1244,8 +1244,20 @@
       "links": {},
       "address": "0xb0a1bd7f7285717cd2b0488c955cef14b65ca2e1",
       "transactionHash": "0xd6015b08afbf2a336f1ab39fdbbd9f4ddc9235ca9866187837ce2d5bac9dd919"
+    },
+    "1521552161422": {
+      "events": {},
+      "links": {},
+      "address": "0x526b251a6ca634a7a7eb69d18096d5f4c002831e",
+      "transactionHash": "0x8f195d9ce817e305f0e8357b63c9d185b2f3aedec896cb48409cf5923c08789b"
+    },
+    "1521605532467": {
+      "events": {},
+      "links": {},
+      "address": "0xbeaa49fbd3b059dfcec8015317e304a15c05884f",
+      "transactionHash": "0x8f195d9ce817e305f0e8357b63c9d185b2f3aedec896cb48409cf5923c08789b"
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-03-20T13:07:26.249Z"
+  "updatedAt": "2018-03-21T04:12:57.808Z"
 }
